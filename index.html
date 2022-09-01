@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!--==custom css==-->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--==Font awesome cdn==-->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!--==Google font==-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--==scroll animation==-->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--nav bar-->
+
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="/" id="navbar_logo" data-aos="fade-down" data-aos-delay="200"
+          >Du<span>pril</span></a
+        >
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <a
+              href="#home"
+              class="navbar_links"
+              data-aos="fade-down"
+              data-aos-delay="100"
+              >Home</a
+            >
+          </li>
+          <li class="navbar_item">
+            <a
+              href="#about"
+              class="navbar_links"
+              data-aos="fade-down"
+              data-aos-delay="200"
+              >About</a
+            >
+          </li>
+          <li class="navbar_item">
+            <a
+              href="#services"
+              class="navbar_links"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              >Services</a
+            >
+          </li>
+          <li class="navbar_item">
+            <a
+              href="#skills"
+              class="navbar_links"
+              data-aos="fade-down"
+              data-aos-delay="400"
+              >Skills</a
+            >
+          </li>
+          <li class="navbar_item">
+            <a
+              href="#projects"
+              class="navbar_links"
+              data-aos="fade-down"
+              data-aos-delay="500"
+              >Projects</a
+            >
+          </li>
+          <li class="navbar_item">
+            <a
+              href="#contact"
+              class="navbar_links"
+              data-aos="fade-down"
+              data-aos-delay="600"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--===End of navbar section===-->
+
+    <!--bubbles anime-->
+
+    <div class="bubbles">
+      <img src="images/bubble.png" />
+      <img src="images/bubble.png" />
+      <img src="images/bubble.png" />
+      <img src="images/bubble.png" />
+      <img src="images/bubble.png" />
+      <img src="images/bubble.png" />
+      <img src="images/bubble.png" />
+    </div>
+
+    <!--==End of bubbles anime==-->
+
+    <!--==info section==-->
+
+    <section class="landing" id="home">
+      <div class="container">
+        <div class="socials" data-aos="fade-right" data-aos-delay="400">
+          <a
+            href="https://facebook.com/prince.duru.355"
+            target="_blank"
+            class="facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://twitter.com/PrincewillDuruU"
+            target="_blank"
+            class="twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://instagram.com/theprincewillduru"
+            target="_blank"
+            class="instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://wa.me/+2349034031589"
+            target="_blank"
+            class="whatsapp"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+
+        <div class="info" data-aos="fade-down" data-aos-delay="600">
+          <h1>
+            Imagine it, <br />
+            we build it.
+          </h1>
+          <p>
+            Hi, I'm Princewill Duru a
+            <strong>frontend web developer</strong> who has the knack of
+            building website with front end tools.
+          </p>
+
+          <a href="#contact"><button class="info_btn">Let's Talk</button></a>
+        </div>
+
+        <div class="profile-area" data-aos="fade-right" data-aos-delay="1000">
+          <div class="outer-circle">
+            <i class="fas fa-code"></i>
+            <i class="fas fa-server"></i>
+
+            <i class="fab fa-codepen"></i>
+            <i class="fab fa-css3"></i>
+          </div>
+          <div class="inner-circle">
+            <img src="images/profile.HEIC" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==End of info section==-->
+
+    <!--About section-->
+
+    <section class="about" id="about">
+      <div class="title">
+        <h1>About me</h1>
+      </div>
+      <div class="container">
+        <div class="image" data-aos="fade-right" data-aos-delay="800">
+          <img src="images/profile.HEIC" />
+        </div>
+        <div class="info" data-aos="fade-left" data-aos-delay="600">
+          <p>
+            I am a passionate, self-motivated learner with a curious problem
+            solving skill. A passionate web developer with vast knowledge in the
+            various <strong>FRONTEND</strong> technologies such as HTML, CSS,
+            Javascript, React, Redux, Bootstrap and Jquery.
+          </p>
+
+          <p>
+            I have been fortunate enough to be part of various training with
+            freeCodeCamp, Codeacademy, Google etc that have played a major role
+            in my professional advancement.
+          </p>
+          <a href="images\Princewill Duru CV.pdf" download class="cv_btn"
+            >Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!--==END OF ABOUT SECTION==-->
+
+    <!--services section-->
+
+    <section class="services" id="services">
+      <div class="title">
+        <h1 class="service_h1">Services</h1>
+      </div>
+      <div class="container">
+        <div class="service" data-aos="fade-in" data-aos-delay="500">
+          <i class="fas fa-code"></i>
+          <h3>WEB DEVELOPMENT</h3>
+          <p>
+            Get an exceptional, secured and fully functional website/web
+            application for your business.
+          </p>
+        </div>
+
+        <div class="service" data-aos="fade-in" data-aos-delay="700">
+          <i class="fas fa-palette"></i>
+          <h3>WEB DESIGN</h3>
+          <p>
+            A way to get yourself stand out is to have an online presence. Get a
+            beautiful and responsive website for your business.
+          </p>
+        </div>
+
+        <div class="service" data-aos="fade-in" data-aos-delay="900">
+          <i class="fas fa-sitemap"></i>
+          <h3>PRODUCT STRATEGY</h3>
+          <p>
+            Get the best and new opportunities for your business products with a
+            long-term strategic plans for future products.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--==skills section==-->
+
+    <section class="skills" id="skills">
+      <div class="title">
+        <h1>Skills</h1>
+      </div>
+
+      <div class="container">
+        <div class="skill" data-aos="fade-down" data-aos-delay="500">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+        </div>
+
+        <div class="skill" data-aos="fade-down" data-aos-delay="600">
+          <i class="fab fa-css3"></i>
+          <h3>CSS</h3>
+        </div>
+
+        <div class="skill" data-aos="fade-down" data-aos-delay="700">
+          <i class="fab fa-js-square"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill" data-aos="fade-up-right" data-aos-delay="600">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+        </div>
+
+        <div class="skill" data-aos="fade-up-right" data-aos-delay="600">
+          <i class="fab fa-react"></i>
+          <h3>Debugging</h3>
+        </div>
+
+        <div class="skill" data-aos="fade-up-right" data-aos-delay="600">
+          <i class="fab fa-react"></i>
+          <h3>Redux</h3>
+        </div>
+
+        <div class="skill" data-aos="fade-up-right" data-aos-delay="600">
+          <i class="fab fa-react"></i>
+          <h3>REST API</h3>
+        </div>
+
+        <div class="skill" data-aos="fade-up" data-aos-delay="700">
+          <i class="fas fa-code"></i>
+          <h3>Bootstrap</h3>
+        </div>
+
+        <div class="skill" data-aos="fade-up-left" data-aos-delay="800">
+          <i class="fas fa-code"></i>
+          <h3>jQuery</h3>
+        </div>
+      </div>
+    </section>
+
+    <!--==portfolio section==-->
+
+    <section id="projects">
+      <div class="container">
+        <div class="title">
+          <h1 class="section-heading">Projects</h1>
+        </div>
+        <div class="alt-items">
+          <div class="item">
+            <div class="left">
+              <div class="img">
+                <img src="images/newsfeed.png" alt="news-project-cover" />
+              </div>
+            </div>
+            <div class="right">
+              <h2 class="project-title">News Outlet</h2>
+              <p class="project-desc">
+                News Website that fetch top headline news from around the world using API which was build with React 
+              </p>
+              <div class="buttons">
+                <a href="https://newsfeed-desk.vercel.app/" target="_blank">
+                  <button class="project-readmore_btn">Read more</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <div class="img">
+                <img src="images/homieSalon.png" alt="salon-project-cover" />
+              </div>
+            </div>
+            <div class="right">
+              <h2 class="project-title">Unisex Salon Website with booking feature</h2>
+              <p class="project-desc">
+                I saw this design on dribble then i decided to transfer it into code. I built it for the unisex salon with a booking feature. 
+              </p>
+              <div class="buttons">
+                <a href="https://homieunisexsalon.vercel.app/" target="_blank">
+                  <button class="project-readmore_btn">Read more</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <div class="img">
+                <img src="images/willtta.png" alt="willtta-project-cover" />
+              </div>
+            </div>
+            <div class="right">
+              <h2 class="project-title">willtta - Marketplace for student</h2>
+              <p class="project-desc">
+                Built with Reactjs and firebase which serves as the backend and the database. This project was aimed at solving problems mostly faced by final year student who need to sometimes dispose off their luggage/valuables because they cant seems to take them all home and most times when the offer to sell it, it becomes somewhat a stress to find buyers. hence, the purpose of this application. sell used product within one's institution.
+              </p>
+              <div class="buttons">
+                <a href="https://willtta.marketplace.vercel.app/" target="_blank">
+                  <button class="project-readmore_btn">Read more</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <div class="img">
+                <img src="images/food website.jpg" alt="project" />
+              </div>
+            </div>
+            <div class="right">
+              <h2 class="project-title">Food Website.</h2>
+              <p class="project-desc">
+                This website was built using html, css and JavaScript. fully
+                responsive, great UI/UX, and beautiful design.
+              </p>
+              <div class="buttons">
+                <a href="https://lilsenfoods.netlify.app" target="_blank">
+                  <button class="project-readmore_btn">Read more</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="left">
+              <div class="img">
+                <img src="images/todo-list.jpg" alt="project" />
+              </div>
+            </div>
+            <div class="right">
+              <h2 class="project-title">React Todo App.</h2>
+              <p class="project-desc">
+                This is a todo application which i birthed as my first react project idea while learning Reactjs using various
+                tutorials platform. This was built using React custom hooks such
+                as useState, useEffect, useRef. More features will be added.
+              </p>
+              <div class="buttons">
+                <a
+                  href="https://princewillreact-todo-app.netlify.app/"
+                  target="_blank"
+                >
+                  <button class="project-readmore_btn">Read more</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==End of projects section==-->
+
+    <!--contact section-->
+
+    <section class="contact" id="contact">
+      <div class="overlay">
+        <div class="container">
+          <h1>Let's Talk</h1>
+          <p>
+            Have something in mind?<br />Relax. with my creative mind, i'll get
+            the job done.
+          </p>
+          <form action="https://formspree.io/f/mgedoowg" method="POST">
+            <input type="text" name="Name" placeholder="Name" required />
+            <input type="email" name="Email" placeholder="Email" required />
+            <input type="text" name="Subject" placeholder="Subject" required />
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <input type="submit" value="Submit" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--===End of conntact===-->
+
+    <!--footer section-->
+
+    <footer>
+      <div class="container">
+        <a href="#" id="footer_logo">Du<span>pril</span></a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="socials">
+          <a
+            href="https://facebook.com/prince.duru.355"
+            target="_blank"
+            class="facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://twitter.com/PrincewillDuruU"
+            target="_blank"
+            class="twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://instagram.com/theduruprincewill"
+            target="_blank"
+            class="instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://wa.me/+2349034031589"
+            target="_blank"
+            class="whatsapp"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright &copy 2022 Dupril. All Right Reserved.
+      </div>
+    </footer>
+
+    <!--==scroll animation library cdn==-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        once: true,
+        easing: "ease",
+        duration: 1000,
+      });
+    </script>
+
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
